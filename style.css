@@ -6,7 +6,7 @@ header{
   background-image: url(img/eid.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  height: 1000px;
   position: relative;
   background-position: center;
 }
@@ -77,4 +77,11 @@ section{
 }
 .third-content{
   margin-left: 80px;
+}
+.video-margin{ margin-top: 100px;}
+
+.fourth-element{
+  margin-left: 30%;
+  width: 50%;
+  text-align: center;
 }
