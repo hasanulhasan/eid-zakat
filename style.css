@@ -1,12 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+body{
+  margin: 0;
+}
+header{
+  background-image: url(img/eid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.header-element{
+  margin-left: 15%;
+  margin-right: 50%;
+}
+.header-element h1{
+  font-size: 70px;
+  color: white;
+  margin-top: 200px;
+}
+.header-element p{
+  font-size: 35px;
+  color: white;
+}
+.button{
+  background-color: #e91c8d;
+  /* background-image: linear-gradient(#e91c8d, rgba(185, 14, 108, 0.706)); */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+.button1{
+  background-color: rgba(233, 17, 136, 0.638);
+  color: white; 
+  border: 2px solid #e91c8d;
+}
 
-</body>
-</html>
+.button1:hover {
+  background-color: #e91c8d;
+  color: white;
+  
+}
