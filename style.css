@@ -70,6 +70,7 @@ section{
 }
 .header-style p{
   font-size: 25px;
+  color: gray;
 } 
 .container{
   margin-left: 10%;
@@ -79,7 +80,7 @@ section{
 }
 .video-margin{ margin-top: 100px;}
 
-.fourth-element{
+.center-element{
   margin-left: 25%;
   width: 50%;
   text-align: center;
@@ -93,6 +94,7 @@ section{
 }
 .cards p{
   font-size: 22px;
+  color: gray;
 }
 .card-main{
   background-color: rgba(245, 245, 220, 0.716);
@@ -109,10 +111,46 @@ section{
 .card-row-2{
   margin-top: 25px;
 }
-.photo-content{
-  
-}
 .photo-content img{
   border-radius: 15px;
   margin-right: 20px;
+}
+.more-card h3{
+  font-size: 25px;
+}
+.more-card p{
+  font-size: 22px;
+  color: gray;
+}
+.card-style{
+  border: 2px solid rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 27%;
+  margin-right: 25px;
+}
+.card-style img{
+  width: 100%;
+}
+.card-element{
+  padding: 35px 35px 35px 35px;
+}
+a{
+  color: rgb(243, 24, 108);
+  font-size: 25px;
+  font-weight: 900;
+}
+footer{
+  background-color: black;
+  height: 220px;
+  margin-bottom: 0;
+  text-align: center;
+}
+footer p{
+  font-family: 'Lobster';
+  font-size: 45px;
+  color: #ff5959;
+}
+footer span{
+  font-size: 20px;
+  color: rgba(0, 255, 255, 0.736);
 }
