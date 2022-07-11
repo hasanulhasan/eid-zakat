@@ -7,8 +7,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  position: relative;
-  background-position: center;
+  display: flex;
 }
 .header-element{
   margin-left: 15%;
@@ -73,7 +72,7 @@ section{
   font-size: 25px;
 } 
 .container{
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .third-content{
   margin-left: 80px;
@@ -81,7 +80,32 @@ section{
 .video-margin{ margin-top: 100px;}
 
 .fourth-element{
-  margin-left: 30%;
+  margin-left: 25%;
   width: 50%;
   text-align: center;
+}
+.cards{ 
+  margin-left: 20%;
+  margin-top: 80px;
+}
+.cards h3{
+  font-size: 25px;
+}
+.cards p{
+  font-size: 22px;
+}
+.card-main{
+  background-color: rgba(245, 245, 220, 0.716);
+  width: 30%;
+  padding: 35px 35px 35px 35px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.483);
+}
+
+.icon-margin{
+  margin-right: 20px;
+  padding-top: 35px;
+}
+.card-row-2{
+  margin-top: 25px;
 }
